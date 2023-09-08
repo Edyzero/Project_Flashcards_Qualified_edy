@@ -1,0 +1,175 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
+    },
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "front": "Differentiate between Real DOM and Virtual DOM.",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 1
+    },
+    {
+      "id": 2,
+      "front": "How do you modify the state of a different React component?",
+      "back": "Not at all! State is visible to the component only.",
+      "deckId": 1
+    },
+    {
+      "id": 3,
+      "front": "How do you pass data 'down' to a React child component?",
+      "back": "As properties or props",
+      "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "cards": [],
+      "front": "test",
+      "back": "test",
+      "deckId": 1,
+      "id": 7
+    },
+    {
+      "deckId": null,
+      "id": 8
+    },
+    {
+      "deckId": null,
+      "id": 9
+    },
+    {
+      "deckId": null,
+      "id": 10
+    },
+    {
+      "deckId": null,
+      "id": 11
+    },
+    {
+      "deckId": null,
+      "id": 12
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 13
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 14
+    },
+    {
+      "front": "front",
+      "back": "back",
+      "deckId": null,
+      "id": 15
+    },
+    {
+      "front": "test1",
+      "back": "test2",
+      "deckId": null,
+      "id": 16
+    },
+    {
+      "front": "test front",
+      "back": "test back",
+      "deckId": 3,
+      "id": 17
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 18
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 19
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 20
+    },
+    {
+      "front": "res",
+      "back": "rest",
+      "deckId": null,
+      "id": 21
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 22
+    },
+    {
+      "front": "rest",
+      "back": "rest",
+      "deckId": null,
+      "id": 23
+    },
+    {
+      "front": "res",
+      "back": "rest",
+      "deckId": null,
+      "id": 24
+    },
+    {
+      "front": "rest",
+      "back": "test",
+      "deckId": null,
+      "id": 25
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": 3,
+      "id": 26
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 27
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": null,
+      "id": 28
+    },
+    {
+      "front": "test",
+      "back": "test",
+      "deckId": 2,
+      "id": 29
+    }
+  ]
+}

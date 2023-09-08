@@ -1,0 +1,42 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .button-blue {
+    background-color: #007bff; /* Blue background color */
+    color: #ffffff; /* White text color */
+  }
+  
+  .button-red {
+    background-color: #ff0000; /* Red background color */
+    color: #ffffff; /* White text color */
+  }
+
+  .button-gray {
+    background-color: darkgray; /* Gray background color */
+    color: #ffffff; /* White text color */
+  }
+  
+  .button:hover {
+    transform: scale(1.05); /* Slight scale-up effect on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on hover */
+  }
+
+  .button-blue:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .button-red:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+
+  .button-gray:hover {
+    background-color: gray; /* Darker gray on hover */
+  }
+  
